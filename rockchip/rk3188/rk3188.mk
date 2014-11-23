@@ -10,6 +10,7 @@ PRODUCT_MODEL := CarPad-II-P
 # Get the long list of APNs
 PRODUCT_COPY_FILES += device/rockchip/common/phone/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 PRODUCT_COPY_FILES += device/rockchip/common/phone/etc/spn-conf.xml:system/etc/spn-conf.xml
+PRODUCT_COPY_FILES += device/rockchip/rk3188/animation/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.version = 1.0.9 \
